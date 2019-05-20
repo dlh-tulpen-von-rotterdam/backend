@@ -1,4 +1,4 @@
-package ch.dreilaenderhack.tulpe.tulpe;
+package ch.dreilaenderhack.tulpe;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

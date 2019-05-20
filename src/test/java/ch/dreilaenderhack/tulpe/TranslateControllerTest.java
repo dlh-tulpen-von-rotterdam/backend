@@ -1,4 +1,4 @@
-package ch.dreilaenderhack.tulpe.tulpe;
+package ch.dreilaenderhack.tulpe;
 
 import static org.hamcrest.Matchers.equalTo;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
@@ -24,7 +24,7 @@ public class TranslateControllerTest {
     private MockMvc mvc;
 
     @Test
-    public void getHello() throws Exception {
+    public void translate() throws Exception {
 
         MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.post("/translate")
                 .contentType(MediaType.APPLICATION_JSON)

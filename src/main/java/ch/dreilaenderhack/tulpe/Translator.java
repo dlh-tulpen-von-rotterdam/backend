@@ -16,6 +16,14 @@ class Translator {
                         Translate.TranslateOption.sourceLanguage(inputLanguage),
                         Translate.TranslateOption.targetLanguage(outputLanguage));
 
-        return translation.getTranslatedText();
+        String translatedText = translation.getTranslatedText();
+
+        TargetLanguage targetLanguage = TargetLanguage.fromAbkuerzung(inputLanguage);
+
+        if (targetLanguage != null) {
+            translatedText = new FachbegriffTranslation().cleanUpFachbegriffe(targetLanguage, translatedText);
+        }
+
+        return translatedText;
     }
 }

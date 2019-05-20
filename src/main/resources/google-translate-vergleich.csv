@@ -1,0 +1,274 @@
+Index,Railway word/phrase - English,German (ÖBB),Hungarian (MAV),en2de,en2hu,de2en,de2hu,hu2en,hu2de
+0,Accident,Unfall,Baleset,Unfall,Baleset,accident,baleset,Accident,Unfall
+1,Actual Delay,Momentane Verspätung,Tényleges késés,Tatsächliche Verzögerung,Tényleges késleltetés,Momentary delay,Pillanatnyi késés,Actual delay,Tatsächliche Verzögerung
+2,Ad hoc,Ad hoc,Azonnali,Ad hoc,Ad hoc,ad hoc,Ad hoc,Immediate,Augenblick
+3,Adhesion,Haftung,Tapadás,Adhäsion,Tapadás,liability,felelősség,Adhesion,Haftung
+4,Agreement on further procedure,Zustimmung für weiteren Ablauf,Megállapodás a további lépésekről,Einigung über weiteres Vorgehen,Megállapodás a további eljárásról,Approval for further process,A további folyamatok jóváhagyása,Agreement on further steps,Einigung über weitere Schritte
+5,Allocation track,Gleis-Zuordnung,Kijelölt vágány,Zuweisungsgleis,Allokációs pálya,Track assignment,Pálya hozzárendelés,Selected track,Ausgewählter Titel
+6,All trains,alle Züge,Összes vonat,Alle Züge,Minden vonat,all trains,minden vonat,Total trains,Züge gesamt
+7,Alternative route,Umleitungsstrecke,Kerülő útvonal,Alternative Route,Alternatív útvonal,detour route,elkerülő útvonalat,Bypass route,Route umgehen
+8,Applicant,Eisenbahnunternehmen,Kérelmező,Antragsteller,Pályázó,Railways,vasúti,applicant,Antragsteller
+9,Arrival,Ankunft,Érkezés,Ankunft,Érkezés,Arrivals,érkezés,Arrival,Ankunft
+10,Arrival announcement,Ankunfts-Ankündigung,Értesítés érkezésről,Ankündigung der Ankunft,Érkezés bejelentése,Arrival announcement,érkezés bejelentése,Arrival Notification,Ankunftsbenachrichtigung
+11,Authorisation,"Genehmigung, Befugnis",Engedélyezés,Genehmigung,meghatalmazás,"Authorization, authority","Engedélyezés, hatóság",licensing,Zulassung
+12,Authorisation for a track closure,Befugnis für eine Gleissperre,Vágányzár engedélyezése,Genehmigung für eine Streckenschließung,A pálya bezárásának engedélyezése,Authorization for a track lock,A sávzár engedélyezése,Enable track lock,Aktivieren Sie die Track-Sperre
+13,Automatic warning system,Automatisches Warnsystem,EÉVB,Automatisches Warnsystem,Automatikus figyelmeztető rendszer,Automatic warning system,Automatikus figyelmeztető rendszer,EÉVB,EÉVB
+14,Axle counter,Achszähler,Tengelyszámláló,Achszähler,Tengely számláló,axle counters,tengelyszámlálókkal,axle Counter,Achszähler
+15,Axle load,Achslast,Tengelyterhelés,Achslast,Tengelyterhelés,axle load,tengelyterhelés,axle load,Achslast
+16,Axlebox,Achslager,Tengelycsapágy,Achsbox,tengelyágy,Achslager,Achslager,shaft Bearing,Wellenlager
+17,Block,Block,Térköz,Block,Blokk,block,tömb,interval,Intervall
+18,Block System,Blocksystem,Térközbiztosító berendezés,Block System,Blokkrendszer,block system,blokk-rendszer,Interlocking device,Verriegelungsvorrichtung
+19,Block section,Blockabschnitt,Térközszakasz,Blockabschnitt,Blokk szakasz,block section,blokkszakaszt,Spacing Section,Abstand Abschnitt
+20,Block signal,Blocksignal,Térközjelző,Signal sperren,Blokk jel,block signal,blokk jel,Spacing Indicator,Abstand Indicator
+21,Border Station,Grenzbahnhof,Határállomás,Grenzstation,Határállomás,border station,határátkelő,frontier station,Grenzstation
+22,Border station affected,Betroffener Grenzübergang,Határállomási érintettség,Grenzstation betroffen,Az érintett határállomás,Affected border crossing,Érintett határátkelőhely,Boundary involvement,Grenzbeteiligung
+23,Bottleneck,"Engpass, Engstelle",Szűk keresztmetszet,Engpass,Palacknyak,"Bottleneck, bottleneck","Szűk keresztmetszet, szűk keresztmetszet",Congestion,Überlastung
+24,Branch line,Anschlussgleis,Mellékvonal,Stichleitung,Ágvonal,siding,mellékvágány,extension Line,Verlängerungslinie
+25,Brake category,Bremsreihe,Féktípus,Bremse kategorie,Fék kategória,brake series,fék sorozat,Brake,Bremse
+26,Brake disturbance,Bremsstörung,Fékhiba,Bremsstörung,Fék zavar,brake failure,fékhiba,brake failure,Bremsversagen
+27,Brake test,Bremsprobe,Fékpróba,Bremstest,Fékvizsgálat,brake test,fékpadon,braking test,Bremstest
+28,Brake weight,Bremsgewicht,Féksúly,Bremsgewicht,Féktömeg,braking weight,fékezés súly,Brake weight,Bremsgewicht
+29,Breakdown of engine/traction unit,Untaugliches(r) Triebfahrzeug/Triebwagen,Mozdony szolgálatképtelen,Ausfall Motor / Triebfahrzeug,A motor / vontató egység bontása,Disabled locomotive / railcar,Mozgássérült mozdony / vasút,Locomotive unserviceable,Lokomotive unbrauchbar
+30,Braking calculation,Bremsrechnung,Megfékezettség számítás,Bremsberechnung,Fékezési számítás,brake bill,fék számla,Calibration calculation,Kalibrierungsberechnung
+31,Cancelled trains,ausgefallene Züge,Törölt vonatok,Annullierte Züge,Megszakított vonatok,fancy trains,képzeletbeli vonatok,Deleted trains,Gelöschte Züge
+32,Capacity consequences,Kapazitätskonsequenzen,Kapacitás következmények,Kapazitätsfolgen,Kapacitás következmények,capacity consequences,kapacitás következményei,Capacity Consequences,Kapazitätsfolgen
+33,Capactity reduction,Kapazitätseinschränkung,Kapacitás csökkentés,Kapazitätsreduzierung,Kapacitáscsökkentés,capacity constraint,kapacitás korlát,Capacity reduction,Kapazitätsreduzierung
+34,Catenary,Oberleitung,Felsővezeték,Oberleitung,láncolat,catenary,láncolat,Catenary,Catenary
+35,Change in train service,Änderung im Betriebsablauf,Változás a vonat szolgáltatásában,Wechsel im Zugverkehr,A vasúti szolgáltatás változása,Change in operation,Működési változás,Change in train service,Wechsel im Zugverkehr
+36,Change of type of traction,Wechsel der Traktionsart,Vontatási nem változása,Wechsel der Traktionsart,A vontatás típusa,Change of traction type,A vontatási típus módosítása,Towing is not a change,Abschleppen ist keine Veränderung
+37,Clarify,abklären,Tisztázni,Klären,tisztázza,clarify,tisztázni,To clarify,geklärt
+38,Closed section,gesperrter Abschnitt,Elzárt szakasz,Geschlossener Abschnitt,Zárt szakasz,locked section,zárolt szakasz,Closed section,Geschlossener Abschnitt
+39,Closed track,gesperrtes Gleis,Elzárt vágány,Geschlossene Strecke,Zárt pálya,locked track,zárolt pálya,Closed track,Geschlossene Strecke
+40,Closure by authorities,Behördliche Sperre,Hatósági lezárás,Schließung durch Behörden,A hatóságok bezárása,Official lock,Hivatalos zár,Authority closure,Behördenschließung
+41,Collapsed catenary,Zusammenbruch des Oberleitungsnetzes,Leszakadt felsővezeték,Eingeklappte Oberleitung,Összecsukott kontaktvezeték,Collapse of the trolley network,A kocsihálózat összeomlása,Dismantled overhead line,Demontierte Freileitung
+42,Colllision,Zusammenstoss,Gázolás,Kollision,Colllision,Collision,ütközés,collision,Kollision
+43,Collision with objects in the track area,Zusammenstösse mit Gegenständen im Gleisbereich,Ütközés tárgyakkal a vágány mentén,Kollision mit Objekten im Gleisbereich,Összeütközés a sávban lévő objektumokkal,Clashes with items in the track area,Összegyűjti a sávban lévő elemekkel,Collision with objects along the track,Kollision mit Objekten entlang der Strecke
+44,Combined rail transport,Kombinierter Ladungsverkehr ,Kombinált vasúti fuvarozás,Kombinierter Schienenverkehr,Kombinált vasúti szállítás,Combined cargo traffic,Kombinált teherszállítás,Combined rail transport,Kombinierter Schienenverkehr
+45,Composition,Zusammensetzung,Összeállítás,Zusammensetzung,Összetétel,composition,összetétel,compilation,Kompilation
+46,Confirmation,Bestätigung,Jóváhagyás,Bestätigung,Megerősítés,confirmation,megerősítés,Approval,Genehmigung
+47,Congested line,Überfüllte Strecke,Túlterhelt vasútvonal,Überfüllte Leitung,Feszített vonal,Crowded track,Zsúfolt pálya,Overloaded railway line,Überladene Eisenbahnlinie
+48,Connecting trains,Anschlusszüge,Csatlakozó vonatok,Anschlusszüge,Csatlakozó vonatok,connecting trains,vonatcsatlakozások,Connecting trains,Anschlusszüge
+49,Consignee,Warenempfänger,Címzett,Empfänger,Címzett,consignee,címzett,Addressee,Empfänger
+50,Consignment,"Lieferung, Warensendung",Küldemény,Sendung,Küldemény,"Delivery, consignment","Szállítás, szállítmányozás",Package,Sendung
+51,Construction works,Instandsetzungsarbeiten,Építési munkák,Bauarbeiten,Építési munkák,repairs,javítások,Construction work,Bauarbeiten
+52,Contingency plan,Notfallplan,Veszélyhelyzeti terv,Notfallplan,Készenléti terv,emergency plan,vészhelyzeti terv,Emergency Plan,Notfallplan
+53,Coupled/ to couple,"gekuppelt, kuppeln",Kapcsolt/Kapcsolni,Gekoppelt / zu koppeln,Csatolt / páros,"coupled, couple","párosítva, pár",Switched / Contact,Switched / Kontakt
+54,Crisis situation,Krisensituation,Krízishelyzet,Krisensituation,Válsághelyzet,crisis situation,válsághelyzet,crisis Situation,Krisensituation
+55,Critical traction power supply,kritische Bahnstromversorgung,Kritikus vontatási energiaellátás,Kritische Bahnstromversorgung,Kritikus vontatási áramellátás,critical traction power supply,kritikus vontatási tápegység,Critical traction energy supply,Kritische Traktionsenergieversorgung
+56,Damages caused by vandalism,Schaden durch Vandalismus,Vandalizmusból eredő sérülések,Schäden durch Vandalismus,A vandalizmus által okozott károk,Damage due to vandalism,A vandalizmus okozta kár,Injuries resulting from vandalism,Verletzungen durch Vandalismus
+57,Danger / no danger,"Gefahr, keine Gefahr",Veszély/Nincs veszély,Gefahr / keine Gefahr,Veszély / nincs veszély,"Danger, no danger","Veszély, nincs veszély",Danger / No danger,Gefahr / keine Gefahr
+58,Dangerous Goods,Gefährliche Güter,Veszélyes áru,Gefahrgut,Veszélyes áruk,Dangerous goods,Veszélyes áruk,Dangerous goods,Gefährliche Güter
+59,Dangerous goods wagons,Gefahrgutwagen,Veszélyes áruval rakott kocsi,Gefahrgutwagen,Veszélyes áruszállító kocsik,Dangerous goods cars,Veszélyes áruk autók,Dangerous goods trolley,Gefahrgutwagen
+60,Defective buffers,defekte Puffer,Sérült ütközők,Defekte Puffer,Hibás pufferek,defective buffers,hibás pufferek,Damaged bumpers,Beschädigte Stoßstangen
+61,Delay,Verspätung,Késés,Verzögern,Késleltetés,delay,késés,Delay,Verzögerung
+62,Delayed trains,Verspätete Züge,Késett vonatok,Verspätete Züge,Késleltetett vonatok,Delayed trains,Késleltetett vonatok,Delayed trains,Verspätete Züge
+63,Damage to the population and the environment,Schäden der Bevölkerung und der Umwelt,Lakosságot érintő és természeti károk,Schäden für Bevölkerung und Umwelt,A lakosság és a környezet károsodása,Damage to the population and the environment,A lakosság és a környezet károsodása,Natural and natural damage,Natürlicher und natürlicher Schaden
+64,Damaged railway infrastructure,beschädigte Eisenbahninfrastrukturen,Sérült vasúti infrastruktúra,Beschädigte Eisenbahninfrastruktur,Sérült vasúti infrastruktúra,damaged railway infrastructure,sérült vasúti infrastruktúra,Damaged railway infrastructure,Beschädigte Eisenbahninfrastruktur
+65,Damaged railway vehicle,beschädigte Eisenbahnfahrzeuge,Sérült vasúti jármű,Beschädigtes Schienenfahrzeug,Sérült vasúti jármű,damaged railway vehicles,sérült vasúti járművek,Damaged railway vehicle,Beschädigtes Schienenfahrzeug
+66,Damaged road vehicles,beschädigte Strassenfahrzeuge,Sérült közúti jármű,Beschädigte Straßenfahrzeuge,Sérült közúti járművek,damaged road vehicles,sérült közúti járművek,Damaged road vehicle,Beschädigtes Straßenfahrzeug
+67,Departure,Abfahrt,Indulás,Abfahrt,Indulás,Departure,kijárat,Departures,Abflug
+68,Departure time,Abfahrtszeit,Indulási idő,Abfahrtszeit,Indulási idő,departure time,indulási idő,Departure time,Abfahrtszeit
+69,Derailment,Entgleisung,Siklás,Entgleisung,kisiklás,derailment,kisiklás,Glide,Gleitflug
+70,Derailed of railway vehicles,entgleiste Eisenbahnfahrzeuge,Siklott vasúti járművek,Von Schienenfahrzeugen entgleist,Vasúti járművek kisiklása,derailed railway vehicles,vasúti járművek,Gliding rail vehicles,Gleitende Schienenfahrzeuge
+71,Different time at Border Point,Unterschiedliche Zeit am Grenzbahnhof,Más idő a határponton,Unterschiedliche Zeit am Grenzpunkt,Más határidő a határponton,Different time at the border station,Más idő a határállomáson,Another time at the border,Ein anderes Mal an der Grenze
+72,Nonfunction of the train running control,Nichtansprechen der Zugbeeinflussung,Vonatközlekedés irányítás nem működik,Ausfall der Zugbeeinflussung,A vonat futásának ellenőrzése,Non-appeal of train control,A vonatirányítás fellebbezése,Train control is not working,Die Zugsteuerung funktioniert nicht
+73,Disconnected or earthed track sections,Ausgeschaltete bzw. geerdete Gleisabschnitte,Feszültségmentesített szakasz,Nicht angeschlossene oder geerdete Gleisabschnitte,Leválasztott vagy földelt sínszakaszok,Disconnected or grounded track sections,Leválasztott vagy földelt pályaszakaszok,Disengaged section,Abschnitt gelöst
+74,Dispatch center,Betriebsführungszentrale,Üzemirányító Központ,Versandzentrum,Küldő központ,Management center,menedzsment központ,Operational Control Center,Betriebszentrale
+75,Dispatcher,"Zuglenker, Betriebskoordinator",Üzemirányító,Dispatcher,diszpécser,"Zuglenker, Operations Coordinator","Zuglenker, Műveleti koordinátor",operation Management,Betriebsführung
+76,Display /to display/ notice,Anzeige/darstellen/Ankündigung,Értesítés megjelenítése,Anzeige / Anzeige / Hinweis,Kijelzés / megjelenítés / értesítés,/ View ad / Announcement,/ Nézet hirdetés / Közlemény,Show notification,Benachrichtigung anzeigen
+77,Disturbance,Störung,Zavar,Störung,Zavarás,disorder,rendetlenség,Confusion,Störung
+78,Disturbance to safety devices,Störung an der Sicherheitseinrichtung,Biztonsági berendezések zavara,Störung von Sicherheitseinrichtungen,A biztonsági berendezések zavarai,Fault at the safety device,Hiba a biztonsági berendezésnél,Malfunction of security equipment,Fehlfunktion der Sicherheitsausrüstung
+79,Double-track,zweigleisig,Kétvágányú pálya,Doppelspur,Kétvágányú,double track,kétvágányú,Two track track,Zweispurige Strecke
+80,Driver,Triebfahrzeugführer,Mozdonyvezető,Treiber,Sofőr,Train drivers,A mozdonyvezetők,engine driver,Lokomotivführer
+81,Driver's cab,Führerstand,Vezetőfülke,Fahrerkabine,Vezetőfülke,cab,taxi,cab,Taxi
+82,Driving staff,Fahrpersonal,Mozdonyszemélyzet,Fahrpersonal,Vezetési személyzet,drivers,illesztőprogramok,engine crew,Motor Crew
+83,Duration,Dauer,Időtartam,Dauer,tartam,duration,tartam,Period,Zeit
+84,Electric brake,Elektrische Bremse,Villamos fék,Elektrische Bremse,Elektromos fék,Electric brake,Elektromos fék,Electric brake,Elektrische Bremse
+85,Electric Power Suppy Equipment,Stromversorgungsausrüstung,Elektromos áramellátó berendezés,Stromversorgung Ausrüstung,Elektromos tápegységek,Power Equipment,Power Equipment,Electric power supply equipment,Stromversorgungsanlagen
+86,Emergency locomotive,Hilfslok,Segélymozdony,Notlokomotive,Vészhelyzeti mozdony,Hilfslok,Hilfslok,aid Locomotive,Hilfe Lokomotive
+87,Emergency stop station,Nothaltestelle,Veszélyhelyzeti tartózkodási állomás,Not-Aus-Station,Vészleállító állomás,emergency station,sürgősségi állomás,Emergency Station,Notfallstation
+88,Encounter ban,Begegnungsverbot,Ellenmenet-kizárás,Begegnungsverbot,Találkozás tilalom,encounter ban,találkozás tilalmat,Running against exclusion,Laufen gegen Ausgrenzung
+89,End station,Endstation,Rendeltetési állomás,Endstation,Végállomás,final destination,végállomás,Destination Station,Zielbahnhof
+90,Endangerment,Gefährdung,Veszélyeztetés,Gefährdung,veszélyeztetettség,endangering,veszélyeztetése,threat,Bedrohung
+91,Entire network,gesamtes Netz,Teljes hálózat,Das ganze Netzwerk,Teljes hálózat,entire network,teljes hálózat,Full network,Volles Netzwerk
+92,Estimated Border Time,Geschätzte Grenzzeit,Várható idő a határon,Geschätzte Grenzzeit,Becsült határidő,Estimated time limit,Becsült határidő,Expected time at the border,Erwartete Zeit an der Grenze
+93,Estimated delay,Geschätzte Verspätung,Várható késés,Voraussichtliche Verspätung,Becsült késedelem,Estimated delay,Becsült késedelem,Expected delay,Erwartete Verspätung
+94,Estimated duration of break down,Geschätzte Dauer der Störung,A hiba várható időtartama,Geschätzte Dauer der Panne,A lebontás becsült időtartama,Estimated duration of the disturbance,A zavar becsült időtartama,The expected duration of the error,Die erwartete Dauer des Fehlers
+95,Estimated duration of the incident,Geschätzte Dauer des Vorfalls,Az esemény várható időtartama,Geschätzte Dauer des Vorfalls,Az esemény becsült időtartama,Estimated duration of the incident,Az esemény becsült időtartama,Expected duration of the event,Voraussichtliche Dauer der Veranstaltung
+96,Estimated time at Border Point,Geschätzte Zeit der Ankunft,Várható idő a határponton,Geschätzte Zeit am Grenzpunkt,Becsült idő a Border Pointnál,Estimated time of arrival,Becsült érkezési idő,Expected time at the border point,Erwartete Zeit am Grenzpunkt
+97,Estimated time of arrival,Geschätzte Zeit am Grenzbahnhof,Várható érkezési idő,Voraussichtliche Ankunftszeit,Tervezett érkezési időpont,Estimated time at the border station,Becsült idő a határállomáson,Expected arrival time,Erwartete Ankunftszeit
+98,Estimated time of handover,Geschätzte Zeit der Übergabe,Várható átadási idő,Voraussichtlicher Zeitpunkt der Übergabe,Az átadás becsült ideje,Estimated time of delivery,Becsült szállítási idő,Expected delivery time,Voraussichtliche Lieferzeit
+99,ETCS perturbation,ETCS-Störung,ETCS zavar,ETCS-Störung,ETCS zavar,ETCS Disorder,ETCS Disorder,ETCS disruption,ETCS-Störung
+100,Exceeding the load profile,Lademassüberschreitung,Rakszelvényen túlérő,Überschreitung des Lastprofils,A terhelési profil túllépése,Loading gauge exceeding,Rakszelvényre meghaladó,Oversized on a gauge,Überdimensioniert auf einer Lehre
+101,Exceptional transit,aussergewöhnliche Sendung,Rendkívüli küldemény,Außergewöhnlicher Transit,Rendkívüli tranzit,exceptional shipment,kivételes szállítás,Extraordinary shipment,Außerordentlicher Versand
+102,Exit signal,Ausfahrsignal,Kijárati jelző,Ausgangssignal,Kilépési jel,Ausfahrsignal,Ausfahrsignal,Exit indicator,Ausgangsanzeige
+103,Extra ordinary stop,ausserordentlicher Halt,Rendkívüli megállás,Außergewöhnlicher Halt,Extra rendes megállás,extraordinary hold,rendkívüli tartás,Extraordinary stop,Außergewöhnlicher Halt
+104,Extra ordinary transport,Ausserordentliche Durchfahrt,Rendkívüli küldemény,Außergewöhnlicher Transport,Extra rendes szállítás,Extraordinary transit,Rendkívüli tranzit,Extraordinary shipment,Außerordentlicher Versand
+105,Fallback Mode Applied,Rückfallmodus verwenden,Csökkentett üzemmód alkalmazva,Fallback-Modus angewendet,Fallback mód alkalmazása,Use fallback mode,Használjon kiegészítő módot,Reduced mode applied,Reduzierter Modus angewendet
+106,Fire,Feuer,Tűz,Feuer,Tűz,Fire,tűz,Fire,Feuer
+107,Fire-brigade-operation,Feuerwehreinsatz,Tűzoltó szolgálat,Feuerwehr-Einsatz,Tűzoltó-művelet,fire services,tűzoltóság,Fire service,Feuerwehr
+108,Fire-fighting and rescue train,Lösch- und Rettungszug,Tűzoltóvonat,Feuerwehr- und Rettungszug,Tűzoltó és mentő vonat,Extinguishing and rescue train,Tűzoltó és mentő vonat,firefighter Train,feuerwehr~~POS=TRUNC Zug
+109,Fire in the train,Brand im Zug,Vonattűz,Feuer im Zug,Tűz a vonaton,Fire on the train,Tűz a vonaton,train Fire,Zug Feuer
+110,Flood,Flut,Árvíz,Flut,Árvíz,flood,árvíz,Flooding,Flut
+111,Forecast,Vorhersage,Előrejelzés,Prognose,Előrejelzés,forecast,előrejelzés,Forecast,Prognose
+112,Forecasted Time at Border,Vorhergesagte Zeit am Grenzübergang,Előre jelzett idő a határon,Voraussichtliche Zeit an der Grenze,Előrejelzett idő a határon,Predicted time at the border crossing,Előrejelzett idő a határátkelőhelyen,Predicted time at the border,Voraussichtliche Zeit an der Grenze
+113,Foreign object,Fremdkörper,Idegen tárgy,Fremdes Objekt,Idegen tárgy,foreign body,idegen test,Foreign object,Fremdkörper
+114,Freight train,Güterzug,Tehervonat,Güterzug,Tehervonat,freight train,tehervonat,goods train,Güterzug
+115,Global consequences,Globale Konsequenzen,Átfogó következmény,Globale Konsequenzen,Globális következmények,Global consequences,Globális következmények,Overall Consequence,Gesamtfolge
+116,Goods,Güter,Áru,Waren,Áruk,goods,áruk,goods,Waren
+117,Handover point,Übergabe-Punkt,Pályavasúti határpont,Übergabepunkt,Átadási pont,Transfer point,Transfer pont,Railway station border point,Grenzübergang zum Bahnhof
+118,High-speed rail,Hochgeschwindigkeitsstrecke,Nagysebességű pálya,Hochgeschwindigkeitszug,Nagy sebességű vasút,High-speed rail,A nagysebességű vasúti,High Speed Track,Hochgeschwindigkeitsstrecke
+119,High-speed train,Hochgeschwindigkeitszug,Nagysebességű vonat,Hochgeschwindigkeitszug,Gyorsvonat,high speed train,Nagy sebességű vonat,High Speed Train,Hochgeschwindigkeitszug
+120,Incident ,Vorfall,Esemény,Vorfall,Incidens,incident,incidens,Event,Ereignis
+121,Industrial action,Arbeitskampf,Ipari tevékenység,Arbeitskampf,Ipari tevékenység,labor dispute,munkaügyi vita,Industrial activity,Industrielle Tätigkeit
+122,Information,Information,Információ,Information,Információ,information,információ,Information,Informationen
+123,Infrastructure Installation Failure ,Infrastruktur-Montage-Fehler,Pályavasúti berendezés hibája,Fehler bei der Installation der Infrastruktur,Infrastruktúra telepítési hiba,Infrastructure installation error,Az infrastruktúra telepítési hiba,Pathway equipment failure,Pathway-Geräteausfall
+124,Infrastructure Manager,Infrastrukturbetreiber,Pályahálózat-működtető,Infrastruktur-Manager,Infrastruktúra-kezelő,infrastructure Manager,infrastruktúra menedzser,Infrastructure-actuator,Infrastruktur-Aktor
+125,Interchange point,Übergabe-Punkt,Vasúti társaságok átadási helye,Austauschpunkt,Cserepont,Transfer point,Transfer pont,Place of transfer of railway companies,Ort der Übertragung von Eisenbahnunternehmen
+126,Interlocking system,Stellwerk,Biztosító berendezés,Verriegelungssystem,Rögzítő rendszer,signal box,jelzőbódé,Security equipment,Sicherheitsausrüstung
+127,Interlocking system fault,Stellwerkstörung,Biztosító berendezési hiba,Systemverriegelungsfehler,Záró rendszer hibája,interlocking disorder,egymásba rendellenesség,Security fitting fault,Sicherheitsbeschlagfehler
+128,Intermediate point,Übergabe-Punkt,Közbenső pont,Zwischenpunkt,Közbenső pont,Transfer point,Transfer pont,Intermediate point,Zwischenpunkt
+129,Intermodal transport,Container Verkehr,Intermodális szállítás,Intermodaler Verkehr,Intermodális szállítás,Container traffic,Konténerforgalom,Intermodal transportation,Intermodaler Verkehr
+130,International traffic,Zusammenbruch ins Oberleitungsnetzes,Nemzetközi forgalom,Internationaler Verkehr,Nemzetközi forgalom,Collapse into the overhead line network,Összeomlik a felsővezeték-hálózatba,International traffic,Internationaler Verkehr
+131,Interruption Point,Unterbrechungsort,A vonat közlekedés megszakadásának helye,Unterbrechungsstelle,Megszakítási pont,Unterbrechungsort,Unterbrechungsort,Place of interruption of train traffic,Ort der Unterbrechung des Zugverkehrs
+132,Interruption Time,Unterbrechungszeit,A vonat közlekedés megszakadásának ideje,Unterbrechungszeit,Megszakítási idő,interruption time,megszakítási idő,Time for train interruption,Zeit für Zugunterbrechung
+133,Kilometre point,Zusammenbruch kis Oberleitungsnetzes,Szelvény,Kilometerpunkt,Kilométerpont,Breakdown kis trolley network,A kis trolibusz hálózat megszakítása,section,Abschnitt
+134,Landslide,Erdrutsch,Földcsuszamlás,Erdrutsch,Földcsuszamlás,landslide,földcsuszamlás,Landslide,Erdrutsch
+135,Lead Railway Undertaking,Führendes Eisenbahnverkehrsunternehmen,Fő vállalkozó vasúti társaság,Führendes Eisenbahnunternehmen,Vezető vasúttársaság,Leading railway company,Vezető vasúttársaság,Main contractor railway company,Hauptauftragnehmer Eisenbahngesellschaft
+136,Level crossing,Eisenbahnkreuzung,Útátjáró,Bahnübergang,Vasúti átjáró,Railroad crossing,vasúti átjáróhoz,Gateway road,Gateway-Straße
+137,Level crossing and traffic control systems,Bahnübergangs- und Verkehrsregelungsanlagen,Útátjáró automatikus vezérlés,Bahnübergangs- und Verkehrskontrollsysteme,Szintbeli átkelés és forgalomirányítási rendszerek,Level crossing and traffic control systems,Szintbeli átkelés és forgalomirányítási rendszerek,Gateway automatic control,Gateway automatische Steuerung
+138,Level crossing out of service,Bahnüberganganlage ausser Betrieb,Útátjáró üzemen kívül,Bahnübergang außer Betrieb,Szintbeli átkelés a szolgálatból,Level crossing system out of service,Szintbeli átkelő rendszer nem működik,Pathway out of operation,Weg außer Betrieb
+139,Line from,Strecke von,Vonal -tól,Linie von,Vonal,Stretch of,Nyújtás,Line from,Linie von
+140,Line to,Strecke nach,Vonal -ig,Linie zu,Vonalak,Route to,Útvonal,Line up,Aufstellung
+141,Loaded train,Beladener Zug,Rakott vonat,Beladener Zug,Betöltött vonat,Loaded train,Betöltött vonat,Stacked train,Gestapelter Zug
+142,Loco,Triebfahrzeug,Mozdony,Lok,Loco,train,vonat,Locomotive,Lokomotive
+143,Loco Type,Lok-Type,Mozdonysorozat,Loktyp,Loco típus,Lok Type,Lok típusa,locomotive Series,Lok-Serie
+144,Locomotives,Lok,Mozdonyok,Lokomotiven,mozdonyok,loco,mozdony,locomotives,Lokomotiven
+145,Locomotive failure / locomotive malfunction,Triebfahrzeugstörung,Vontatójármű zavara,Lokversagen / Lokstörung,Mozdonyhiba / mozdony meghibásodása,Locomotive disorder,Mozgásszervi betegségek,Trailer breakdown,Trailer Panne
+146,Loss of radio data connection,Datenfunkausfall,Hiba a rádiókapcsolatban,Verlust der Funkdatenverbindung,A rádiós adatkapcsolat elvesztése,Data radio failure,Rádiós adatátviteli hiba,Error in radio communication,Fehler in der Funkkommunikation
+147,Maintenance,Erhaltung,Fenntartás,Instandhaltung,Karbantartás,conservation,megőrzés,Maintenance,Reservierung
+148,Main track,Hauptgleis,Fővágány,Hauptstrecke,Főbb pálya,main track,fő pályán,main Track,Hauptgleis
+149,Malicious Act,Bahnfrevel,Szándékos károkozás,Böswillige Handlung,Rosszindulatú törvény,railway crime,vasúti bűnözés,Intentional damage,Vorsätzliche Beschädigung
+150,Marshalling ,Verschub,Rendezés,Marshalling,rendező-,shunting,tolató,Sort by,Sortieren nach
+151,Maximum speed,Höchstgeschwindigkeit,Legnagyobb sebesség,Maximale Geschwindigkeit,Maximális sebesség,top speed,végsebesség,Highest speed,Höchste Geschwindigkeit
+152,Measure,Maßnahme,Intézkedés,Messen,Intézkedés,measure,intézkedés,Measure,messen
+153,National safety authority,NSA,Nemzeti Közlekedési Hatóság,Nationale Sicherheitsbehörde,Nemzeti biztonsági hatóság,NSA,NSA,National transport Authority,Nationale Verkehrsbehörde
+154,Natural hazards,Naturgefahren,Természeti veszély,Natürliche Gefahren,Természeti veszélyek,natural hazards,természeti veszélyek,Natural danger,Naturgefahr
+155,Notice of a track closure,Anzeige einer Gleissperrung,Értesítés vágányzárról,Bekanntmachung einer Gleisschließung,Értesítés a pálya bezárásáról,Display of a track lock,Műsorszám zárolása,Track lock notification,Benachrichtigung über Sperre verfolgen
+156,Observations,Beobachtungen/Überwachungen,Észrevételek,Beobachtungen,Megfigyelések,Observations / monitoring,Megfigyelések / felügyeleti,Comments,Kommentare
+157,Obstruction on the track,Hindernis auf der Strecke,Vágány elzárva,Hindernis auf der Strecke,Akadály a pályán,Obstacle on the track,Az akadály a pályán,Track closed,Track geschlossen
+158,Occupied track,Besetztes Gleis,Foglalt vágány,Belegte Strecke,Foglalt pálya,Busy track,Foglalt pálya,Busy track,Belebte Strecke
+159,On Time,Pünktlich,Pontos,Pünktlich,Időben,In time,pontosan,Accurate,genau
+160,Opening of line,"Engpass, Engstelle",Vonal megnyitása,Eröffnung der Linie,A vonal megnyitása,"Bottleneck, bottleneck","Szűk keresztmetszet, szűk keresztmetszet",Open a line,Öffne eine Zeile
+161,Operating mode,Betriebsart,Üzemmód (pl. vonatkövetés),Betriebsart,Üzemmód,operating mode,üzemmód,Mode (eg train tracking),Modus (zB Zugverfolgung)
+162,Operating track,Betriebsgleis,Üzemelő vágány,Betriebsspur,Működési pálya,operational track,operatív pálya,Operating track,Betriebsspur
+163,Operational restrictions,betriebliche Einschränkungen,Forgalmi korlátozás,Betriebsbeschränkungen,Működési korlátozások,operational restrictions,működési korlátozások,Traffic restriction,Verkehrsbeschränkung
+164,Operational rules/priority rules,Priorisierungsregeln,Forgalmi szabályok,Betriebsregeln / Prioritätsregeln,Működési szabályok / elsőbbségi szabályok,prioritization rules,rangsorolási szabályok,Traffic rules,Verkehrsregeln
+165,Operation difficulties,Betriebsstörung,Forgalmi nehézmény,Bedienungsschwierigkeiten,Működési nehézségek,breakdown,meghibásodás,Traffic difficulty,Verkehrsschwierigkeiten
+166,Optional stop,Engpass,Feltételes megálló,Optionaler Stopp,Opcionális stop,bottleneck,palacknyak,Conditional stop,Bedingter Stopp
+167,Out-of-gauge load,Außerhalb des Lademaßes,Űrszelvényen túlérő rakomány,Last außerhalb des Messbereichs,Méret nélküli terhelés,Outside the loading gauge,A rakománymérőn kívül,Cargo overload on gauge,Ladungsüberladung am Manometer
+168,Overhead line,Fahrleitung,Felsővezeték,Oberleitung,Felsővezeték,catenary,láncolat,Catenary,Catenary
+169,Overhead line failure,Fahrleitungsstörung,Felsővezetéki hiba,Ausfall der Freileitung,Felsővezeték meghibásodása,Catenary system,felsővezeték rendszer,Overhead line failure,Ausfall der Freileitung
+170,Overhead line irregularity,Unregelmässigkeit an der Fahrleitung,Felsővezetéki zavar,Unregelmäßigkeit der Freileitung,A felsővezeték szabálytalansága,Irregularity on the overhead line,Szabálytalanság a felsővezetéken,Overhead line interference,Oberleitungsstörungen
+171,Overhead line section,Fahrleitungssektor,Tápszakasz,Freileitungsabschnitt,Felsővezeték-szakasz,Catenary sector,felsővezeték szektor,Tápszakasz,Tápszakasz
+172,Overhead line works,Fahrleitungsarbeiten,Felsővezetékes villamos üzemi munka,Freileitung funktioniert,A felsővezeték működik,Overhead wire,felsővezeték,Overhead electrical work,Overhead-Elektroarbeiten
+173,Overloaded route,Überlastete Strecke,Túlterhelt útvonal,Überladene Route,Túlterhelt útvonal,Overloaded route,Túlterhelt útvonal,Overloaded route,Überladene Route
+174,Pantograph,Stromabnehmer,Áramszedő,Pantograph,gólyaorr,pantograph,gólyaorr,pantograph,Pantograph
+175,Park a train,Zug parken/hinterstellen,Vonat félreállítása,Parke einen Zug,Parkoljon egy vonatot,Park / hide the train,Parkolás / elrejtés a vonaton,Train set aside,Zug beiseite legen
+176,Passengers,Reisende,Utasok,Passagiere,Az utasok,traveler,utazó,Passengers,Passagiere
+177,Passenger coaches,Reisezugwagen,Személyszállító kocsik,Reisezugwagen,Utasok,coaches,edzők,Passenger cars,Personenkraftwagen
+178,Passenger train,Personenzug,Személyszállító vonat,Personenzug,Utasszállító vonat,passenger Train,személyvonat,Passenger train,Personenzug
+179,Personal Accident,Personenunfall,Személyi sérüléssel járó baleset,Persönlicher Unfall,Személyes baleset,personal accident,baleset,Personal injury accident,Personenschaden Unfall
+180,Perturbation,Störung,Zavar,Störung,zavarkeltés,disorder,rendetlenség,Confusion,Störung
+181,Perturbation axle counter,Achszählerstörungen,Tengelyszámláló zavara,Störachsenzähler,Perturbációs tengely számláló,Achszählerstörungen,Achszählerstörungen,Axle counter fault,Achszählerfehler
+182,Platform,Bahnsteig,Peron,Plattform,Emelvény,platform,emelvény,deck,Deck
+183,Platform length,änge des Perrons,Peronhossz,Plattformlänge,A platform hossza,Length of the Perron,A Perron hossza,platform length,Plattformlänge
+184,Point or Point switch,Weiche,Kitérő,Punkt oder Punktschalter,Pont- vagy pontkapcsoló,switch,kapcsoló,Bypass,Bypass
+185,Police operation,Polizeieinsatz,Rendőrségi szolgálat,Polizeieinsatz,Rendőrségi művelet,Police operation,rendőri művelet,Police service,Polizeidienst
+186,Police regulations,Polizeivorschriften,Rendőrségi szabályok,Polizeivorschriften,Rendőrségi előírások,police regulations,rendőrségi előírások,Police Rules,Polizeiregeln
+187,Power cut,Stromausfall,Áramszünet,Stromausfall,Áramkimaradás,Power failure,áramszünet,blackout,Blackout
+188,Power failure,Spannungsausfall,Áramellátási zavar,Stromausfall,Áramkimaradás,power failure,áramszünet,Power failure,Stromausfall
+189,Radio data transmission interruption,Datenfunkunterbruch,Rádió adatátviteli zavar,Unterbrechung der Funkdatenübertragung,Rádió adatátviteli megszakítás,Radio data transmission interruption,Rádiós adatátvitel megszakítása,Radio data interference,Funkdatenstörung
+190,Rail Freight Corridor,Rail Freight Corridor,Vasúti áruszállítási folyosó,Schienengüterverkehrskorridor,Vasúti árufuvarozási folyosó,Rail Freight Corridor,Vasúti árufuvarozási folyosó,Rail freight corridor,Schienengüterverkehrskorridor
+191,Railway Accident,Eisenbahnunfall,Vasúti baleset,Eisenbahnunfall,Vasúti baleset,Railway accident,Vasúti baleset,Railway accident,Eisenbahnunfall
+192,Railway Undertaking,Eisenbahnverkehrsunternehmen,Vállalkozó vasúti társaság,Eisenbahnunternehmen,Vasúti vállalkozás,Railway transport companies,Vasúti közlekedési vállalat,Contractor railway company,Auftragnehmer Eisenbahngesellschaft
+193,Refusal/reject,Weigerung/zurückweisen,Visszautasítás,Ablehnung / Ablehnung,Megtagadása / elutasítása,Refusal / reject,Megtagadása / elutasítása,rejection,Ablehnung
+194,Release of hazardous substances,Freigabe von gefährlichen Stoffen,Veszélyes anyagok/áru szabadba kerülése,Freisetzung gefährlicher Stoffe,Veszélyes anyagok kibocsátása,Release of dangerous substances,Veszélyes anyagok kibocsátása,Dangerous goods / goods coming out,Gefahrgut / herauskommende Ware
+195,Renumbering,Umnummerierung,Átszámozás,Umnummerierung,újraszámozás,renumbering,újraszámozást,renumbering,Umnummerierung
+196,Replacement bus,Ersatzbus,Vonatpótló busz,Ersatzbus,Cserebusz,Replacement bus,csere busz,Train replacement bus,Zugersatzbus
+197,Replacement locomotive,Ersatztriebfahrzeug,Segélymozdony,Ersatzlokomotive,Csere mozdony,Spare train,Tartalék vonat,aid Locomotive,Hilfe Lokomotive
+198,Rescue service operation,Rettungseinsatz,Katasztrófavédelem,Rettungsdiensteinsatz,Mentési szolgálat,rescue Operation,mentési művelet,Disaster recovery,Disaster Recovery
+199,Request for Actual Information about the Train,Anforderung über aktuelle Zugsinformation,Friss információ kérése a vonatról,Anfrage für aktuelle Informationen zum Zug,Tényleges információ kérése a vonattal kapcsolatban,Request for current train information,A vonat aktuális információinak kérése,Requesting fresh information about the train,Neue Informationen über den Zug anfordern
+200,Request for Direct Communication Needed,Anforderung über direkte Kommunikation,Közvetlen kommunikáció kérése,Anfrage für direkte Kommunikation erforderlich,Közvetlen kommunikációs kérelem szükséges,Request via direct communication,Kérés közvetlen kommunikáció útján,Request for direct communication,Bitte um direkte Kommunikation
+201,Rerouting of the Train,Umleitung eines Zuges,Változás az útvonalban,Umleitung des Zuges,A vonat átirányítása,Redirection of a train,A vonat átirányítása,Change the route,Ändern Sie die Route
+202,Restricted speed running,eingeschränkte Laufgeschwindigkeit,Korlátozott sebességgel közlekedés,Geschwindigkeitsbeschränkung läuft,Korlátozott sebesség fut,limited running speed,korlátozott futási sebesség,Limited speed transport,Transport mit begrenzter Geschwindigkeit
+203,Reversal of direction,Richtungsänderung,Visszafordulás,Richtungsumkehr,Irányváltás,change of direction,irányváltoztatás,Turning back,Umkehr
+204,Rolling stock ,Wagenmaterial,Gördülő állomány,Fahrzeuge,Gördülőállomány,rolling stock,gördülőállomány,Rolling stock,Fahrzeuge
+205,Route,Strecke,Útvonal,Route,Útvonal,route,útvonal,Route,Weg
+206,Running in Advance,Vorsprungfahren,Korábban közlekedő,Laufen im Voraus,Előre futás,Take advantage,kihasználni,Previously traveling,Zuvor unterwegs
+207,Running to schedule,"Engpass, Engstelle",Menetrendszerinti közlekedés,Laufen nach Zeitplan,Futás ütemezéssel,"Bottleneck, bottleneck","Szűk keresztmetszet, szűk keresztmetszet",Scheduled transport,Geplanter Transport
+208,Run through,durchfahren in,Áthaladás,Durchlaufen,Végigmenni,drive through in,átmegy,passage,Durchgang
+209,Run through the station,Durchfahrt im Bahnhof,Áthaladás az állomáson,Lauf durch die Station,Fuss az állomáson,Transit in the station,Tranzit az állomáson,Passing through the station,Durch den Bahnhof fahren
+210,Section,Abschnitt,Szakasz,Sektion,Szakasz,section,rész,Platoon,Abschnitt
+211,Security measures,Sicherungsmassnahmen,Biztonsági intézkedések,Sicherheitsmaßnahmen,Biztonsági intézkedések,safety measures,biztonsági intézkedések,Security measures,Sicherheitsmaßnahmen
+212,Shunting,Verschub,Tolatás,Rangieren,Tolatási,shunting,tolató,shunt,Shunt
+213,Shunting impact,Verschub-Anprall,Tolatási hatás/kihatás,Rangieraufprall,A tolatás hatása,Shunting-impact,Tolatás-hatás,Reversible effect / effect,Umkehrbarer Effekt / Effekt
+214,Shunting yard,Verschubbahnhof,Rendező-pályaudvar,Rangierbahnhof,Shunting udvar,shunting,tolató,Marshalling,Rangierung
+215,Signal,Signal,Jelző,Signal,Jel,signal,jel,marker,Marker
+216,Signal single-track operation,Signal-eingleisiger Betrieb,Jelző egyvágányú üzemhez,Signal einspuriger Betrieb,A jelzés egyetlen sávos működése,Signal single-rail operation,Signál egysínű működés,Indicator for single track operation,Anzeige für einspurigen Betrieb
+217,Signaller,Fahrdienstleiter,Forgalmi szolgálattevő,Signalgeber,híradó,Dispatchers,diszpécserek,Traffic Operator,Verkehrsbetreiber
+218,Signalling Equipment Signal-Box,Stellwerk,Jelző berendezés,Signaleinrichtung Signal-Box,Jelzőberendezés jelződoboz,signal box,jelzőbódé,Signaling equipment,Signalausrüstung
+219,Single-track,eingleisige Strecke,Egyvágányú pálya,Einspurig,Egyvágányú,single track route,egyetlen pálya útvonal,One track track,Einspuriger Track
+220,Speed Limit,Geschwindigkeitsbeschränkung,Sebesség határ,erlaubte Höchstgeschwindigkeit,Sebességhatár,speed limit,sebességhatár,Speed limit,Geschwindigkeitsbegrenzung
+221,Speed Restriction,Geschwindigkeitseinschränkung,Sebesség korlátozás,Geschwindigkeitsbegrenzung,Sebességkorlátozás,speed restriction,sebességkorlátozás,Speed limit,Geschwindigkeitsbegrenzung
+222,Station,Bahnhof,Állomás,Bahnhof,Állomás,railway station,vasútállomás,Station,Station
+223,Start station,Startbahnhof,Indító állomás,Station starten,Indító állomás,starting station,kezdőszelvény,Starting station,Startstation
+224,Strike,Streik,Sztrájk,Streik,Sztrájk,strike,csapás,Strike,Streik
+225,Supervised level crossing on site,Bahnübergang örtlich bewacht,Helyből kezelt sorompó,Überwachter Bahnübergang vor Ort,Felügyelt szintű kereszteződés a helyszínen,Railroad crossing guarded locally,Vasúti kereszteződés helyben,Locally managed barrier,Lokal verwaltete Barriere
+226,Tail Lights,Schlusssignal,Zárjelző fény,Rückleuchten,Hátsó lámpák,final signal,végső jel,Lock light,Sperren Sie das Licht
+227,Technical assistance,Fachdienst,Műszaki szakszolgálat,Technische Unterstützung,Technikai segítségnyújtás,Fachdienst,Fachdienst,Technical service,Technischer Service
+228,Technical Inspection,Störung am Zug,Műszaki vizsgálat,Technische Überprüfung,Műszaki ellenőrzés,Disruption to the train,A vonat megzavarása,Technical inspection,Technische Inspektion
+229,Technical Problems,technische Störung,Műszaki probléma,Technische Probleme,Technikai problémák,technical difficulties,technikai hiba,Technical problem,Technisches Problem
+230,Technical stop,Technischer Stop,Műszaki okból történő megállás,Technischer Stopp,Műszaki okokból végzett leszállás,Technical stop,Műszaki megállás,Stopping for technical reasons,Anhalten aus technischen Gründen
+231,Telecommunication network,Telekommunikations Netz,Távközlési hálózat,Telekommunikationsnetz,Távközlési hálózat,Telecommunications network,Távközlési hálózat,Telecommunication network,Telekommunikationsnetz
+232,Temporary speed restriction,Zeitliche Geschwindigkeitseinschränkung,Ideiglenes sebesség korlátozás,Temporäre Geschwindigkeitsbegrenzung,Ideiglenes sebességkorlátozás,Temporal speed restriction,Időbeli sebességkorlátozás,Temporary speed restriction,Temporäre Geschwindigkeitsbegrenzung
+233,Terminal,Terminal,Terminál,Terminal,Terminál,terminal,terminál,Terminal,Terminal
+234,Terminus station,Endstation / Kopfbahnhof,Végállomás,Endstation,Terminus állomás,Terminus / terminus,Terminus / terminus,Terminus,Endstation
+235,Through station,Durchfahrbahnhof,Középállomás,Durch die Station,Állomáson keresztül,Drive-through station,Áthajtásos állomáson,Central Station,Hauptbahnhof
+236,Timetable,Fahrplan,Menetrend,Zeitplan,Órarend,timetable,menetrend,Timetable,Zeitplan
+237,Timetable for trains,Fahrordnung für Züge,Vonatok menetrendje,Fahrplan für Züge,A vonatok menetrendje,Road rules for trains,Közúti szabályok a vonatok számára,Trains schedule,Zugfahrplan
+238,Total closure,Strecken-Unterbrechung,Teljes kizárás,Totale Schließung,Teljes bezárás,Stretch-break,Stretch-break,Complete exclusion,Vollständiger Ausschluss
+239,Tow/ to be towed,abgeschleppt werden,Vontatni/Vontatva,Abschleppen / abgeschleppt werden,Vontatás / vontatás,be towed,vontatni,Tow / towed,Tow / geschleppt
+240,Towed load,Anhängelast,Vontatott rakomény,Geschleppte Ladung,Vontatott terhelés,towable,vontatható,Trailed stack,Geschleppter Stapel
+241,To cancel security measures,Sicherungsmassnahmen aufheben,Biztonsági intézkedések érvénytelenítése,Sicherheitsmaßnahmen abbrechen,A biztonsági intézkedések törlése,Cancel security measures,Törölje a biztonsági intézkedéseket,Cancellation of security measures,Aufhebung von Sicherheitsmaßnahmen
+242,To the arrival track,bis Zielgleis,Az érkező vágányra,Zur Ankunftsspur,Az érkezési pályára,to destination track,a célsávra,The arriving track,Die ankommende Strecke
+243,Track,Gleis,Pálya,Spur,Vágány,track,vágány,court,Gericht
+244,Track equipment,Gleisausstattung,Pályaberendezés,Ausrüstung verfolgen,Nyomkövető berendezések,railway equipment,A vasúti berendezések,course Equipment,natürlich Ausrüstung
+245,Track irregularity,Unregelmässigkeit an der Fahrleitung,Pályahiba,Verfolgen Sie Unregelmäßigkeiten,A szabálytalanság követése,Irregularity on the overhead line,Szabálytalanság a felsővezetéken,track Error,Spur Fehler
+246,Track Obstruction,Gleis-Sperre,Vágány lezárva,Hindernis verfolgen,A pálya akadályozása,Track Lock,sávzároló,Track closed,Track geschlossen
+247,Track on rising gradient,Gleis mit Steigung,Emelkedő pálya,Spur auf steigender Steigung,Az emelkedő gradiens nyomon követése,Track with slope,A pálya lejtővel,Rising track,Steigende Spur
+248,Track signal,Gleis Signal,Pálya melletti jelző,Signal verfolgen,Nyomjelzés,Track signal,Nyomjelzés,Track marker,Titelmarkierung
+249,Track / switches / catenary damaged,Gleis/Weichen/Oberleitung beschädigt,Pálya/váltók/felsővezeték megsérült,Gleis / Weichen / Oberleitung beschädigt,A sín / kapcsolók / nyomaték sérült,Track / points / overhead line damaged,A pálya / pontok / felsővezeték sérült,The track / gear / overhead line is damaged,Das Gleis / Getriebe / die Oberleitung ist beschädigt
+250,Traffic accident,Verkehrsunfall,Közlekedési baleset,Verkehrsunfall,Közlekedési baleset,traffic accident,közúti baleset,Traffic accident,Verkehrsunfall
+251,Traffic density of a line,Verkehrsdichte einer Strecke,Egy vonal forgalomsűrűsége,Verkehrsdichte einer Linie,Egy vonal forgalmi sűrűsége,Traffic density of a route,Egy útvonal forgalmi sűrűsége,Traffic density of a line,Verkehrsdichte einer Linie
+252,Train Cancellation,Zugausfall,Vonatlemondás,Zugstornierung,Vonat törlése,train cancellation,vonat törlés,train cancellations,Zugausfällen
+253,Train Crew,Zugmannschaft,Vonatszemélyzet,Zugbesatzung,Vonatszemélyzet,train crew,vonatszemélyzet,train Staff,Zugpersonal
+254,Train Delay,Zugverspätung,Vonatkésés,Zugverspätung,Vonat késése,train delay,A vonat késésének,train Delay,Zug Verspätung
+255,Train number,Zugnummer,Vonatszám,Zugnummer,Vonat száma,Train number,Vonat száma,train No.,Zug Nr
+256,Train path,Zugfahrplan,Menetvonal,Zugweg,Vonatútvonal,Train schedule,Vonat menetrend,Path,Weg
+257,Train priority order,Zugpriorisierung,Vonatok fontossági sorrendje,Reihenfolge der Zugprioritäten,A vonat elsőbbségi sorrendje,Zugpriorisierung,Zugpriorisierung,The order of importance of trains,Die Reihenfolge der Bedeutung der Züge
+258,Train Run Interrupted,Zuglauf unterbrochen,Vonatközlekedés megszakítva,Zugfahrt unterbrochen,A vonat futása megszakadt,Traction interrupted,A vontatás megszakadt,Train Interrupted,Zug unterbrochen
+259,Train Running in Advance,Zug fährt mit Vorsprung,Korábbi vonatközlekedés,Train Running im Voraus,A vonat előre halad,Train drives ahead,A vonat előre halad,Previous train service,Vorheriger Zugservice
+260,Train Speed Restriction,Geschwindigkeitseinschränkung des Zuges,Vonat sebességének korlátozása,Geschwindigkeitsbegrenzung,Vonat sebességkorlátozása,Speed restriction of the train,A vonat sebességkorlátozása,Limiting train speed,Begrenzung der Zuggeschwindigkeit
+261,Trains to be kept by the previous IM,Zug auf Abruf beim vorangegangenen IB,A vonatoknak az átadó PV-nál kell maradni,Züge müssen vom vorherigen IM gehalten werden,"Vonatok, amelyeket az előző IM-nek meg kell tartania",Train on call at the previous IB,Vonat a korábbi IB-n,Trains must stay at the transfer PV,Die Züge müssen bei der Übergabe PV bleiben
+262,Trains to be re-routed,Zug müssen umgeleitet werden,Más útvonalon közlekedtetendő vonatok,Züge müssen umgeleitet werden,"Vonatok, amelyeket át kell irányítani",Train must be diverted,A vonatot át kell irányítani,Trains to be operated on other routes,"Züge, die auf anderen Strecken verkehren sollen"
+263,UN number,UN-Nummer,Veszélyességi szám,UN-Nummer,ENSZ-szám,UN number,UN-szám,Hazard number,Gefahrennummer
+264,User interface,Bedienoberfläche,Felhasználói felület,Benutzeroberfläche,Felhasználói felület,user interface,A felhasználói felület,User interface,Benutzeroberfläche
+265,Vehicle,Fahrzeug,Jármű,Fahrzeug,Jármű,vehicle,jármű,Vehicle,Fahrzeug
+266,Vehicle circulating as exceptional transport,Fahrzeug als aussergewöhnliche Sendung,Rendkívüli küldeményként közlekedő jármű,Fahrzeug als Ausnahmetransporter im Umlauf,Kivételes közlekedésként közlekedő jármű,Vehicle as an exceptional consignment,Jármű kivételes szállítmányként,Extraordinary shipment vehicle,Außergewöhnliches Transportfahrzeug
+267,Vehicles ran away,Fahrzeuge entrollt,Megfutamodott járművek,Fahrzeuge rannten davon,A járművek elfutottak,Vehicles unrolled,A járművek lekerekítettek,Running vehicles,Laufende Fahrzeuge
+268,Wagon,Waggon,Kocsi,Wagen,Vasúti kocsi,wagon,kocsi,Car,Auto
+269,Weight,Gewicht,Súly,Gewicht,Súly,mass,súly,Weight,Gewicht
+270,Wheather conditions,Wetterbedingungen,Időjárási körülmények,Wetterbedingungen,Időjárás,Weather conditions,időjárási viszonyok,Weather conditions,Wetterbedingungen
+271,Wheel flat,Flachstelle,Lapos kerék,Rad flach,Kerék lapos,flat spot,lapos terület,Flat tire,Flaches Rad
+272,Work area,Arbeitsstelle,Munkaterület,Arbeitsbereich,Munkaterület,place of work,munka,Work place,Arbeitsplatz

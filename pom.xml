@@ -29,6 +29,11 @@
             <artifactId>google-cloud-translate</artifactId>
             <version>1.49.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.opencsv</groupId>
+            <artifactId>opencsv</artifactId>
+            <version>4.0</version>
+        </dependency>
         <!-- end::actuator[] -->
         <!-- tag::tests[] -->
         <dependency>
