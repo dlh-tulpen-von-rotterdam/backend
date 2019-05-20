@@ -1,4 +1,4 @@
-package hackathon;
+package ch.dreilaenderhack.tulpe;
 
 import com.google.cloud.translate.Detection;
 import com.google.cloud.translate.Translate;
