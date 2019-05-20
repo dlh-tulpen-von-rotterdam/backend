@@ -32,6 +32,6 @@ public class TranslateControllerTest {
 
         this.mvc.perform(requestBuilder)
         .andExpect(status().isOk())
-                .andExpect(content().string(equalTo("Hallo Welt!")));
+                .andExpect(content().string(equalTo("{\"text\": \""+ "Hallo Welt!" + "\"}")));
     }
 }

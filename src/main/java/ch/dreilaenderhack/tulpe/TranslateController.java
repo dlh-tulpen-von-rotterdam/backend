@@ -9,8 +9,9 @@ public class TranslateController {
 
     @PostMapping(value = "/translate")
     public String translate(@RequestBody TranslateRequest translateRequest) {
-        return new Translator().translate(translateRequest.getInputLanguage(), translateRequest.getOutputLanguage(),
+        String translate = new Translator().translate(translateRequest.getInputLanguage(), translateRequest.getOutputLanguage(),
                 translateRequest.getText());
+        return "{\"text\": \""+ translate + "\"}";
     }
 
 }

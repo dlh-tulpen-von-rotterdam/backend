@@ -10,7 +10,6 @@ class Translator {
         // Instantiates a client
         Translate translate = TranslateOptions.getDefaultInstance().getService();
 
-        // Translates some text into Russian
         Translation translation =
                 translate.translate(
                         text,
