@@ -22,7 +22,9 @@ class Translator {
                     translate.translate(
                             text,
                             Translate.TranslateOption.sourceLanguage(inputLanguage),
-                            Translate.TranslateOption.targetLanguage(outputLanguage));
+                            Translate.TranslateOption.targetLanguage(outputLanguage),
+                            //explicitely set neuronal translation (should be default)
+                            Translate.TranslateOption.model("nmt"));
 
             translatedText = translation.getTranslatedText();
 
@@ -31,6 +33,7 @@ class Translator {
             if (targetLanguage != null) {
                 cleanedUpText = new FachbegriffTranslation().cleanUpFachbegriffe(targetLanguage, translatedText);
             }
+
         } catch (TranslateException e) {
             if (e.getCause() instanceof GoogleJsonResponseException) {
                 googleJsonError = ((GoogleJsonResponseException) e.getCause()).getDetails();
