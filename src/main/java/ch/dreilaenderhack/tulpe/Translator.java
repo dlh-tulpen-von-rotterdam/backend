@@ -6,7 +6,7 @@ import com.google.cloud.translate.Translation;
 
 class Translator {
 
-    String translate(String inputLanguage, String outputLanguage, String text) {
+    TranslateResult translate(String inputLanguage, String outputLanguage, String text) {
         // Instantiates a client
         Translate translate = TranslateOptions.getDefaultInstance().getService();
 
@@ -18,12 +18,13 @@ class Translator {
 
         String translatedText = translation.getTranslatedText();
 
-        TargetLanguage targetLanguage = TargetLanguage.fromAbkuerzung(inputLanguage);
+        TargetLanguage targetLanguage = TargetLanguage.fromAbkuerzung(outputLanguage);
 
+        String cleanedUpText = null;
         if (targetLanguage != null) {
-            translatedText = new FachbegriffTranslation().cleanUpFachbegriffe(targetLanguage, translatedText);
+            cleanedUpText = new FachbegriffTranslation().cleanUpFachbegriffe(targetLanguage, translatedText);
         }
 
-        return translatedText;
+        return new TranslateResult(cleanedUpText, translatedText);
     }
 }

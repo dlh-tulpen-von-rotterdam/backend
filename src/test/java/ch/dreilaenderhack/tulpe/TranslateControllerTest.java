@@ -1,9 +1,5 @@
 package ch.dreilaenderhack.tulpe;
 
-import static org.hamcrest.Matchers.equalTo;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +10,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+
+import static org.hamcrest.Matchers.equalTo;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -28,10 +28,10 @@ public class TranslateControllerTest {
 
         MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.post("/translate")
                 .contentType(MediaType.APPLICATION_JSON)
-                .content("{ \"inputLanguage\": \"en\", \"outputLanguage\": \"de\", \"text\": \"Hello World!\"}");
+                .content("{ \"inputLanguage\": \"en\", \"outputLanguage\": \"de\", \"text\": \"The arrival announcement should be communicated in a couple of minutes!\"}");
 
         this.mvc.perform(requestBuilder)
-        .andExpect(status().isOk())
-                .andExpect(content().string(equalTo("{\"text\": \""+ "Hallo Welt!" + "\"}")));
+                .andExpect(status().isOk())
+                .andExpect(content().string(equalTo("{\"text\":\"Die Ankunfts-Ankündigung sollte in ein paar Minuten erfolgen!\",\"originalTranslate\":\"Die Ankündigung der Ankunft sollte in ein paar Minuten erfolgen!\"}")));
     }
 }
