@@ -34,4 +34,16 @@ public class TranslateControllerTest {
                 .andExpect(status().isOk())
                 .andExpect(content().string(equalTo("{\"text\":\"Die Ankunfts-Ankündigung sollte in ein paar Minuten erfolgen!\",\"originalTranslate\":\"Die Ankündigung der Ankunft sollte in ein paar Minuten erfolgen!\"}")));
     }
+
+    @Test
+    public void translateSameLanguageToSame() throws Exception {
+
+        MockHttpServletRequestBuilder requestBuilder = MockMvcRequestBuilders.post("/translate")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content("{ \"inputLanguage\": \"en\", \"outputLanguage\": \"en\", \"text\": \"Hello World!\"}");
+
+        this.mvc.perform(requestBuilder)
+                .andExpect(status().isOk())
+                .andExpect(content().string(equalTo("{\"googleJsonError\":{\"code\":400,\"errors\":[{\"domain\":\"global\",\"message\":\"Bad language pair: en|en\",\"reason\":\"badRequest\"}],\"message\":\"Bad language pair: en|en\"}}")));
+    }
 }
