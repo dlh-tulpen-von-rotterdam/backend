@@ -1,19 +1,28 @@
 package ch.dreilaenderhack.tulpe;
 
 import com.opencsv.CSVReader;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.Resource;
+import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
+@Component
 public class FachbegriffTranslation {
     private static Map<String, String> deTranslatedToRequiredTranslation = new HashMap<>();
     private static Map<String, String> enTranslatedToRequiredTranslation = new HashMap<>();
     private static Map<String, String> huTranslatedToRequiredTranslation = new HashMap<>();
 
-    static {
-        loadCsv();
+    @Value("${app.corrected_translations}")
+    private Resource translationFile;
+
+    @PostConstruct
+    public void init() {
+        loadCsv(translationFile);
     }
 
     String cleanUpFachbegriffe(TargetLanguage targetLanguage, String translatedText) {
@@ -28,6 +37,8 @@ public class FachbegriffTranslation {
 
         } else if (targetLanguage == TargetLanguage.HU) {
             replaced = replaceWhereNecessary(translatedText, huTranslatedToRequiredTranslation);
+        } else {
+            replaced = translatedText;
         }
 
         return replaced;
@@ -45,9 +56,9 @@ public class FachbegriffTranslation {
         return replaced;
     }
 
-    private static void loadCsv() {
+    private static void loadCsv(Resource csvFile) {
 
-        try (CSVReader reader = new CSVReader(new FileReader("C:\\devsbb\\workspaces\\backend\\src\\main\\resources\\google-translate-vergleich.csv"));){
+        try (CSVReader reader = new CSVReader(new FileReader(csvFile.getFile()))){
             String[] line;
             while ((line = reader.readNext()) != null) {
                 String english = line[1];

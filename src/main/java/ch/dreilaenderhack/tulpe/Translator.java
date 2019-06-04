@@ -2,12 +2,41 @@ package ch.dreilaenderhack.tulpe;
 
 import com.google.api.client.googleapis.json.GoogleJsonError;
 import com.google.api.client.googleapis.json.GoogleJsonResponseException;
+import com.google.auth.oauth2.ServiceAccountCredentials;
 import com.google.cloud.translate.Translate;
 import com.google.cloud.translate.TranslateException;
 import com.google.cloud.translate.TranslateOptions;
 import com.google.cloud.translate.Translation;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.io.Resource;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
+import java.io.IOException;
+
+@Service
 class Translator {
+
+    @Value("${app.credentials}")
+    Resource credentials;
+
+    Translate gTranslate;
+
+    FachbegriffTranslation fachbegriffTranslation;
+
+    public Translator(FachbegriffTranslation fachbegriffTranslation){
+        this.fachbegriffTranslation = fachbegriffTranslation;
+    }
+
+    @PostConstruct
+    public void init(){
+        try {
+            gTranslate = TranslateOptions.newBuilder().setCredentials(ServiceAccountCredentials.fromStream(credentials.getInputStream())).build().getService();
+        } catch (IOException e){
+            throw new RuntimeException("Credentials file not found.", e);
+        }
+    }
 
     TranslateResult translate(String inputLanguage, String outputLanguage, String text) {
 
@@ -16,10 +45,9 @@ class Translator {
         GoogleJsonError googleJsonError = null;
         // Instantiates a client
         try {
-            Translate translate = TranslateOptions.getDefaultInstance().getService();
 
             Translation translation =
-                    translate.translate(
+                    gTranslate.translate(
                             text,
                             Translate.TranslateOption.sourceLanguage(inputLanguage),
                             Translate.TranslateOption.targetLanguage(outputLanguage),
@@ -31,7 +59,7 @@ class Translator {
             TargetLanguage targetLanguage = TargetLanguage.fromAbkuerzung(outputLanguage);
 
             if (targetLanguage != null) {
-                cleanedUpText = new FachbegriffTranslation().cleanUpFachbegriffe(targetLanguage, translatedText);
+                cleanedUpText = fachbegriffTranslation.cleanUpFachbegriffe(targetLanguage, translatedText);
             }
 
         } catch (TranslateException e) {

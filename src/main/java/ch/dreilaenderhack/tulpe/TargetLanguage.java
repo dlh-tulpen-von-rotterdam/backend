@@ -3,7 +3,8 @@ package ch.dreilaenderhack.tulpe;
 enum TargetLanguage {
     DE("de"),
     EN("en"),
-    HU("hu");
+    HU("hu"),
+    FR("fr");
     private String abkuerzung;
 
     TargetLanguage(String abkuerzung) {
