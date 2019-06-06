@@ -1,15 +1,7 @@
 package ch.dreilaenderhack.tulpe;
 
-import com.google.api.client.googleapis.json.GoogleJsonError;
-import com.google.api.client.googleapis.json.GoogleJsonResponseException;
-import com.google.auth.oauth2.ServiceAccountCredentials;
 import com.google.cloud.translate.Translate;
-import com.google.cloud.translate.TranslateException;
-import com.google.cloud.translate.TranslateOptions;
-import com.google.cloud.translate.Translation;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.core.io.Resource;
-import org.springframework.stereotype.Component;
+import com.google.cloud.translate.v3beta1.*;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
@@ -18,56 +10,63 @@ import java.io.IOException;
 @Service
 class Translator {
 
-    @Value("${app.credentials}")
-    Resource credentials;
-
     Translate gTranslate;
+    TranslationServiceClient translationService;
 
-    FachbegriffTranslation fachbegriffTranslation;
-
-    public Translator(FachbegriffTranslation fachbegriffTranslation){
-        this.fachbegriffTranslation = fachbegriffTranslation;
-    }
 
     @PostConstruct
     public void init(){
         try {
-            gTranslate = TranslateOptions.newBuilder().setCredentials(ServiceAccountCredentials.fromStream(credentials.getInputStream())).build().getService();
+            translationService = TranslationServiceClient.create();
         } catch (IOException e){
             throw new RuntimeException("Credentials file not found.", e);
         }
     }
 
-    TranslateResult translate(String inputLanguage, String outputLanguage, String text) {
+    /**
+     * Translates a given text to a target language.
+     *
+     * @param projectId - Id of the project.
+     * @param location - location name.
+     * @param text - Text for translation.
+     * @param sourceLanguageCode - Language code of text. e.g. "en"
+     * @param targetLanguageCode - Language code for translation. e.g. "sr"
+     */
+    TranslateTextResponse translateText(
+            String projectId,
+            String location,
+            String text,
+            String sourceLanguageCode,
+            String targetLanguageCode,
+            String glossary) {
 
-        String translatedText = null;
-        String cleanedUpText = null;
-        GoogleJsonError googleJsonError = null;
-        // Instantiates a client
-        try {
+            LocationName locationName =
+                    LocationName.newBuilder().setProject(projectId).setLocation(location).build();
 
-            Translation translation =
-                    gTranslate.translate(
-                            text,
-                            Translate.TranslateOption.sourceLanguage(inputLanguage),
-                            Translate.TranslateOption.targetLanguage(outputLanguage),
-                            //explicitely set neuronal translation (should be default)
-                            Translate.TranslateOption.model("nmt"));
 
-            translatedText = translation.getTranslatedText();
+            GlossaryName glossaryName =
+                    GlossaryName.newBuilder()
+                            .setProject(projectId)
+                            .setLocation(location)
+                            .setGlossary(glossary)
+                            .build();
+            TranslateTextGlossaryConfig translateTextGlossaryConfig =
+                    TranslateTextGlossaryConfig.newBuilder().setIgnoreCase(true).setGlossary(glossaryName.toString()).build();
 
-            TargetLanguage targetLanguage = TargetLanguage.fromAbkuerzung(outputLanguage);
+            TranslateTextRequest translateTextRequest =
+                    TranslateTextRequest.newBuilder()
+                            .setParent(locationName.toString())
+                            .setMimeType("text/plain")
+                            .setSourceLanguageCode(sourceLanguageCode)
+                            .setTargetLanguageCode(targetLanguageCode)
+                            .setGlossaryConfig(translateTextGlossaryConfig)
+                            .addContents(text)
+                            .build();
 
-            if (targetLanguage != null) {
-                cleanedUpText = fachbegriffTranslation.cleanUpFachbegriffe(targetLanguage, translatedText);
-            }
+            // Call the API
+            TranslateTextResponse response = translationService.translateText(translateTextRequest);
+            return response;
 
-        } catch (TranslateException e) {
-            if (e.getCause() instanceof GoogleJsonResponseException) {
-                googleJsonError = ((GoogleJsonResponseException) e.getCause()).getDetails();
-            }
-        }
-
-        return new TranslateResult(cleanedUpText, translatedText, googleJsonError);
     }
+
 }
